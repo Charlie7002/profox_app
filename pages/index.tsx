@@ -18,9 +18,9 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main className={styles.main}>
-				<TitleStyle className={styles.title}>
+				<h1 className={styles.title}>
 					Welcome to <a href="https://nextjs.org">Next.js!</a>
-				</TitleStyle>
+				</h1>
 
 				<p className={styles.description}>
 					Get started by editing <code className={styles.code}>pages/index.tsx</code>
@@ -70,10 +70,6 @@ const Home: NextPage = () => {
 		</Container>
 	);
 };
-
-const TitleStyle = styled.h1`
-	color: red;
-`;
 
 const Container = styled.div<ThemeProps>`
 	background-color: ${props => (props.theme === 'light' ? 'pink' : 'black')};
