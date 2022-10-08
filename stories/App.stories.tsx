@@ -14,14 +14,9 @@ export default {
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Home> = args => <Home {...args} />;
 
-export const LogIn = Template.bind({});
-LogIn.args = {
+export const Default = Template.bind({});
+Default.args = {
 	user: {
 		name: 'John Doe',
 	},
-};
-
-export const LogOut = Template.bind({});
-LogOut.args = {
-	user: null,
 };
