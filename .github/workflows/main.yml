@@ -26,7 +26,8 @@ jobs:
          - run: npm run check-format
          - run: npm run build
          - name: Cypress run
-            uses: cypress-io/github-action@v4
-            with:
-             build: npm run build
-             start: npm start
+           uses: cypress-io/github-action@v4
+           with:
+              build: npm run build
+              start: npm start
+
