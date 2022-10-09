@@ -6,6 +6,7 @@ on:
   pull_request:
     branches: ["main"]
 
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,3 +26,4 @@ jobs:
       - run: npm run lint
       - run: npm run check-format
       - run: npm run build --if-present
+
