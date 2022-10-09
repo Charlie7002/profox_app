@@ -9,6 +9,7 @@ interface ThemeProps {
 }
 
 const Home: NextPage = () => {
+	const a = 'b';
 	return (
 		<Container theme="light">
 			<Head>
