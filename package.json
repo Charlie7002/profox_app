@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "check-format": "prettier --check .",
+    "format": "prettier --write .",
     "cypress": "cypress open",
     "test": "npx cypress run --record --key 462c302d-460c-4074-9484-426e74b339da",
     "storybook": "start-storybook -p 6006",
